@@ -1,77 +1,78 @@
-# Hey, I'm Arik 👋
+# Hi, I'm Ari Klopfer
 
-**AI & Automation Consultant** building intelligent systems that work while you sleep.
+**AI Agent & Developer Tools Engineer** | Chicago
 
-I help companies automate compliance, capture grants, and deploy AI agents that handle complex workflows autonomously.
+Building production AI systems that bridge technical infrastructure with business operations.
 
 ---
 
-### 🔧 What I Build
+### What I Do
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│  AI AGENTS          AUTOMATION           COMPLIANCE            │
-│  ──────────         ──────────           ──────────            │
-│  Claude SDK         N8N Workflows        FDA/GMP/HACCP         │
-│  MCP Servers        API Integrations     HIPAA Systems         │
-│  Multi-Agent        Real-time Sync       Grant Tracking        │
-└─────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────┐
+│  AI AGENTS           MCP SERVERS         ENTERPRISE AI        │
+│  ──────────          ──────────          ─────────────        │
+│  Claude SDK          Tool Integration    Workflow Automation  │
+│  Multi-Agent         API Design          Compliance Systems   │
+│  Orchestration       Custom Tooling      Grant Intelligence   │
+└────────────────────────────────────────────────────────────────┘
 ```
 
-### 🚀 Featured Projects
+### Featured Work
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| **[ADEV Dashboard](https://github.com/Adkr1989/claude-agent-sdk-intro)** | Multi-agent orchestration platform with real-time streaming | Claude SDK, FastAPI, WebSocket |
-| **EV_LV Grant Intelligence** | Automated NEVI grant tracking and eligibility scoring | Python, AI Agents |
-| **Maine Scientific Compliance** | FDA/GMP/HACCP automation for food & supplements | Compliance AI |
+| Project | What It Does |
+|---------|--------------|
+| **[Portfolio](https://github.com/Adkr1989/Portfolio)** | AI Agent development showcase - architecture, patterns, results |
+| **Grant Intelligence Platform** | Automated NEVI/federal grant tracking with eligibility scoring |
+| **Compliance Automation** | FDA/GMP/HACCP documentation systems |
+| **Multi-Agent Dashboard** | Real-time orchestration with WebSocket streaming |
 
-### 📊 Current Focus
+### By The Numbers
 
 ```
-Week 1-2: [████████████████████░░░░] Grant Intelligence System
-Week 3-4: [████████░░░░░░░░░░░░░░░░] Compliance Automation
+363,000+  Lines of production code
+    918x  Efficiency gain documented
+      6   Years energy consulting experience
+     12+  MCP server implementations
 ```
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Claude_SDK-5A67D8?style=flat&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/MCP_Servers-00D4FF?style=flat" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/N8N-EA4B71?style=flat&logo=n8n&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/N8N-EA4B71?style=flat&logo=n8n&logoColor=white" />
 </p>
 
-### 💡 I Help Companies With
+### Background
 
-- **AI Agent Development** → Custom Claude SDK implementations, MCP servers, multi-agent systems
-- **Workflow Automation** → N8N pipelines, API integrations, real-time data sync
-- **Compliance Automation** → FDA, GMP, HACCP, HIPAA documentation and monitoring
-- **Grant Intelligence** → Federal/state funding tracking, eligibility analysis, application support
+I started in electrical systems and event production. Six years of energy consulting taught me how enterprises actually operate—the compliance, the stakeholders, the need for solutions that work on day one.
 
-### 📈 GitHub Stats
+Now I build AI agents that automate real business workflows.
+
+### GitHub Stats
 
 <p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Adkr1989&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adkr1989&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Adkr1989&show_icons=true&theme=default&hide_border=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adkr1989&layout=compact&theme=default&hide_border=true" />
 </p>
 
-### 🤝 Let's Connect
+### Let's Connect
 
 <p>
-  <a href="mailto:contact@a-development.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/Adkr1989/Portfolio"><img src="https://img.shields.io/badge/Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://a-development.com"><img src="https://img.shields.io/badge/Website-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" /></a>
 </p>
 
 ---
 
 <p align="center">
-  <i>Building AI systems that automate the boring stuff so you can focus on what matters.</i>
+  <i>Available for AI agent development, MCP server implementation, and enterprise AI integration.</i>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Adkr1989&color=00ff88&style=flat" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Adkr1989&color=2563eb&style=flat" alt="Profile views" />
 </p>
