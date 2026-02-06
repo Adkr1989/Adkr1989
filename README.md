@@ -23,9 +23,9 @@ Building production AI systems that bridge technical infrastructure with busines
 | Project | What It Does |
 |---------|--------------|
 | **[Portfolio](https://github.com/Adkr1989/Portfolio)** | AI Agent development showcase - architecture, patterns, results |
-| **Grant Intelligence Platform** | Automated NEVI/federal grant tracking with eligibility scoring |
-| **Compliance Automation** | FDA/GMP/HACCP documentation systems |
-| **Multi-Agent Dashboard** | Real-time orchestration with WebSocket streaming |
+| **[Grant Intelligence Platform](https://github.com/Adkr1989/EV_LV)** | Automated NEVI/federal grant tracking with eligibility scoring |
+| **[Compliance Automation](https://github.com/Adkr1989/Maine-Scientific-Dev)** | FDA/GMP/HACCP documentation systems |
+| **[Multi-Agent Dashboard](https://github.com/Adkr1989/Agent-Dashboard-Designer)** | Real-time orchestration with WebSocket streaming |
 
 ### By The Numbers
 
@@ -63,8 +63,9 @@ Now I build AI agents that automate real business workflows.
 ### Let's Connect
 
 <p>
-  <a href="https://github.com/Adkr1989/Portfolio"><img src="https://img.shields.io/badge/Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="mailto:lawventuresltd.group@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://linkedin.com/in/ariklopfer"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/Adkr1989/Portfolio"><img src="https://img.shields.io/badge/Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
 ---
