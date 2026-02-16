@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Double-Sided Door Hanger</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #e8e8e8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .page-label {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 12px;
+      margin-top: 40px;
+    }
+
+    .door-hanger {
+      width: 4in;
+      height: 11in;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    }
+
+    /* ===================== SIDE A: Samantha's Cleaning Co ===================== */
+    .side-a {
+      background: linear-gradient(175deg, #e8f5e9 0%, #ffffff 35%, #f1f8e9 65%, #e8f5e9 100%);
+    }
+
+    .side-a .hook-area {
+      width: 100%;
+      height: 1.3in;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding-bottom: 0;
+      position: relative;
+    }
+
+    .side-a .hook-hole {
+      width: 1.2in;
+      height: 0.6in;
+      border: 3px dashed #a5d6a7;
+      border-radius: 0 0 50% 50%;
+      border-top: none;
+      position: relative;
+    }
+
+    .side-a .hook-hole::after {
+      content: '✂ cut';
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 8px;
+      color: #a5d6a7;
+      letter-spacing: 1px;
+    }
+
+    .side-a .top-accent {
+      width: 100%;
+      height: 6px;
+      background: linear-gradient(90deg, #43a047, #66bb6a, #81c784, #66bb6a, #43a047);
+      margin-top: 8px;
+    }
+
+    .side-a .sparkle-row {
+      text-align: center;
+      font-size: 18px;
+      letter-spacing: 12px;
+      padding: 10px 0 4px;
+      color: #43a047;
+    }
+
+    .side-a .brand-name {
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .side-a .brand-name .script {
+      font-family: 'Dancing Script', cursive;
+      font-size: 42px;
+      color: #2e7d32;
+      line-height: 1.1;
+      display: block;
+    }
+
+    .side-a .brand-name .co {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: #388e3c;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+      display: block;
+      margin-top: 2px;
+    }
+
+    .side-a .tagline-badge {
+      margin: 14px auto 0;
+      background: #2e7d32;
+      color: #fff;
+      text-align: center;
+      padding: 8px 20px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      width: 85%;
+      clip-path: polygon(4% 0%, 96% 0%, 100% 50%, 96% 100%, 4% 100%, 0% 50%);
+    }
+
+    .side-a .illustration {
+      text-align: center;
+      font-size: 60px;
+      padding: 16px 0 8px;
+    }
+
+    .side-a .divider {
+      width: 60%;
+      margin: 0 auto;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #81c784, transparent);
+    }
+
+    .side-a .services {
+      padding: 14px 28px;
+      text-align: center;
+    }
+
+    .side-a .services-title {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #2e7d32;
+      margin-bottom: 10px;
+    }
+
+    .side-a .service-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px 14px;
+      text-align: left;
+    }
+
+    .side-a .service-item {
+      font-size: 10px;
+      color: #444;
+      font-weight: 500;
+      padding-left: 14px;
+      position: relative;
+    }
+
+    .side-a .service-item::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: #43a047;
+      font-weight: 700;
+    }
+
+    .side-a .divider2 {
+      width: 50%;
+      margin: 12px auto;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #81c784, transparent);
+    }
+
+    .side-a .promo-box {
+      margin: 0 24px;
+      border: 2px solid #43a047;
+      border-radius: 10px;
+      padding: 12px 16px;
+      text-align: center;
+      background: rgba(232, 245, 233, 0.6);
+    }
+
+    .side-a .promo-box .discount {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      font-weight: 900;
+      color: #2e7d32;
+      line-height: 1;
+    }
+
+    .side-a .promo-box .promo-text {
+      font-size: 10px;
+      font-weight: 600;
+      color: #555;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+
+    .side-a .contact-area {
+      margin: 14px 24px 0;
+      background: #2e7d32;
+      border-radius: 8px;
+      padding: 12px 16px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .side-a .contact-area .phone {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .side-a .contact-area .email {
+      font-size: 10px;
+      font-weight: 400;
+      margin-top: 2px;
+      opacity: 0.9;
+    }
+
+    .side-a .bottom-location {
+      text-align: center;
+      padding: 10px 0 6px;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #777;
+    }
+
+    .side-a .bottom-accent {
+      width: 100%;
+      height: 6px;
+      background: linear-gradient(90deg, #43a047, #66bb6a, #81c784, #66bb6a, #43a047);
+    }
+
+    /* ===================== SIDE B: Ari's Exterior House Painting ===================== */
+    .side-b {
+      background: linear-gradient(175deg, #e3f2fd 0%, #ffffff 35%, #e8eaf6 65%, #e3f2fd 100%);
+    }
+
+    .side-b .hook-area {
+      width: 100%;
+      height: 1.3in;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      position: relative;
+    }
+
+    .side-b .hook-hole {
+      width: 1.2in;
+      height: 0.6in;
+      border: 3px dashed #90caf9;
+      border-radius: 0 0 50% 50%;
+      border-top: none;
+      position: relative;
+    }
+
+    .side-b .hook-hole::after {
+      content: '✂ cut';
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 8px;
+      color: #90caf9;
+      letter-spacing: 1px;
+    }
+
+    .side-b .top-accent {
+      width: 100%;
+      height: 6px;
+      background: linear-gradient(90deg, #1565c0, #42a5f5, #64b5f6, #42a5f5, #1565c0);
+      margin-top: 8px;
+    }
+
+    .side-b .paint-icons {
+      text-align: center;
+      font-size: 18px;
+      letter-spacing: 10px;
+      padding: 10px 0 4px;
+      color: #1565c0;
+    }
+
+    .side-b .brand-name {
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .side-b .brand-name .name {
+      font-family: 'Playfair Display', serif;
+      font-size: 40px;
+      font-weight: 900;
+      color: #1565c0;
+      line-height: 1.1;
+      display: block;
+    }
+
+    .side-b .brand-name .subtitle {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      color: #1976d2;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      display: block;
+      margin-top: 4px;
+    }
+
+    .side-b .tagline-badge {
+      margin: 14px auto 0;
+      background: #1565c0;
+      color: #fff;
+      text-align: center;
+      padding: 8px 20px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      width: 85%;
+      clip-path: polygon(4% 0%, 96% 0%, 100% 50%, 96% 100%, 4% 100%, 0% 50%);
+    }
+
+    .side-b .illustration {
+      text-align: center;
+      font-size: 60px;
+      padding: 16px 0 8px;
+    }
+
+    .side-b .divider {
+      width: 60%;
+      margin: 0 auto;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #90caf9, transparent);
+    }
+
+    .side-b .services {
+      padding: 14px 28px;
+      text-align: center;
+    }
+
+    .side-b .services-title {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #1565c0;
+      margin-bottom: 10px;
+    }
+
+    .side-b .service-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px 14px;
+      text-align: left;
+    }
+
+    .side-b .service-item {
+      font-size: 10px;
+      color: #444;
+      font-weight: 500;
+      padding-left: 14px;
+      position: relative;
+    }
+
+    .side-b .service-item::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: #1976d2;
+      font-weight: 700;
+    }
+
+    .side-b .divider2 {
+      width: 50%;
+      margin: 12px auto;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #90caf9, transparent);
+    }
+
+    .side-b .promo-box {
+      margin: 0 24px;
+      border: 2px solid #1976d2;
+      border-radius: 10px;
+      padding: 12px 16px;
+      text-align: center;
+      background: rgba(227, 242, 253, 0.6);
+    }
+
+    .side-b .promo-box .discount {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      font-weight: 900;
+      color: #1565c0;
+      line-height: 1;
+    }
+
+    .side-b .promo-box .promo-text {
+      font-size: 10px;
+      font-weight: 600;
+      color: #555;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+
+    .side-b .contact-area {
+      margin: 14px 24px 0;
+      background: #1565c0;
+      border-radius: 8px;
+      padding: 12px 16px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .side-b .contact-area .phone {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .side-b .contact-area .email {
+      font-size: 10px;
+      font-weight: 400;
+      margin-top: 2px;
+      opacity: 0.9;
+    }
+
+    .side-b .bottom-location {
+      text-align: center;
+      padding: 10px 0 6px;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #777;
+    }
+
+    .side-b .bottom-accent {
+      width: 100%;
+      height: 6px;
+      background: linear-gradient(90deg, #1565c0, #42a5f5, #64b5f6, #42a5f5, #1565c0);
+    }
+
+    /* ===================== PRINT STYLES ===================== */
+    @media print {
+      body { background: none; padding: 0; }
+      .page-label { display: none; }
+      .door-hanger { box-shadow: none; page-break-after: always; }
+      .instructions { display: none; }
+    }
+
+    .instructions {
+      max-width: 4in;
+      margin-top: 40px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      font-size: 13px;
+      color: #555;
+      line-height: 1.6;
+    }
+    .instructions h3 {
+      color: #333;
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+    .instructions ul {
+      padding-left: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============ SIDE A: Samantha's Cleaning Co ============ -->
+  <div class="page-label">&#9650; Side A &mdash; Front</div>
+  <div class="door-hanger side-a">
+    <div class="hook-area">
+      <div class="hook-hole"></div>
+    </div>
+    <div class="top-accent"></div>
+
+    <div class="sparkle-row">&#10024; &#10024; &#10024;</div>
+
+    <div class="brand-name">
+      <span class="script">Samantha's</span>
+      <span class="co">Cleaning Co.</span>
+    </div>
+
+    <div class="tagline-badge">Bozeman's Best House Cleaning</div>
+
+    <div class="illustration">&#127968;</div>
+
+    <div class="divider"></div>
+
+    <div class="services">
+      <div class="services-title">Our Services</div>
+      <div class="service-grid">
+        <div class="service-item">Deep Cleaning</div>
+        <div class="service-item">Weekly Service</div>
+        <div class="service-item">Move-In / Out</div>
+        <div class="service-item">Office Cleaning</div>
+        <div class="service-item">Window Washing</div>
+        <div class="service-item">Carpet Care</div>
+      </div>
+    </div>
+
+    <div class="divider2"></div>
+
+    <div class="promo-box">
+      <div class="discount">15% OFF</div>
+      <div class="promo-text">Your First Cleaning</div>
+    </div>
+
+    <div class="contact-area">
+      <div class="phone">(406) 555-0123</div>
+      <div class="email">samantha@samanthascleaning.com</div>
+    </div>
+
+    <div class="bottom-location">&#9679; Bozeman, Montana &#9679;</div>
+    <div class="bottom-accent"></div>
+  </div>
+
+  <!-- ============ SIDE B: Ari's Exterior House Painting ============ -->
+  <div class="page-label">&#9650; Side B &mdash; Back</div>
+  <div class="door-hanger side-b">
+    <div class="hook-area">
+      <div class="hook-hole"></div>
+    </div>
+    <div class="top-accent"></div>
+
+    <div class="paint-icons">&#127912; &#127912; &#127912;</div>
+
+    <div class="brand-name">
+      <span class="name">Ari's</span>
+      <span class="subtitle">Exterior House Painting</span>
+    </div>
+
+    <div class="tagline-badge">Bozeman's Trusted Painters</div>
+
+    <div class="illustration">&#128230;</div>
+
+    <div class="divider"></div>
+
+    <div class="services">
+      <div class="services-title">Our Services</div>
+      <div class="service-grid">
+        <div class="service-item">Full Exteriors</div>
+        <div class="service-item">Trim &amp; Detail</div>
+        <div class="service-item">Deck Staining</div>
+        <div class="service-item">Power Washing</div>
+        <div class="service-item">Color Consults</div>
+        <div class="service-item">Fence Painting</div>
+      </div>
+    </div>
+
+    <div class="divider2"></div>
+
+    <div class="promo-box">
+      <div class="discount">FREE ESTIMATE</div>
+      <div class="promo-text">Call Today &mdash; No Obligation</div>
+    </div>
+
+    <div class="contact-area">
+      <div class="phone">(406) 555-0456</div>
+      <div class="email">ari@arispainting.com</div>
+    </div>
+
+    <div class="bottom-location">&#9679; Bozeman, Montana &#9679;</div>
+    <div class="bottom-accent"></div>
+  </div>
+
+  <!-- ============ INSTRUCTIONS ============ -->
+  <div class="instructions">
+    <h3>Printing Instructions</h3>
+    <ul>
+      <li><strong>Print Page 1</strong> (Side A), then flip and <strong>print Page 2</strong> (Side B) on the back.</li>
+      <li>Use <strong>cardstock</strong> (80-110 lb) for best results.</li>
+      <li>Cut along the outer edges and cut out the <strong>door hook hole</strong> at the top.</li>
+      <li>Standard door hanger size: <strong>4" x 11"</strong>.</li>
+    </ul>
+  </div>
+
+</body>
+</html>
