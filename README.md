@@ -23,9 +23,10 @@ Building production AI systems that bridge technical infrastructure with busines
 | Project | What It Does |
 |---------|--------------|
 | **[Portfolio](https://github.com/Adkr1989/Portfolio)** | AI Agent development showcase - architecture, patterns, results |
-| **[Grant Intelligence Platform](https://github.com/Adkr1989/EV_LV)** | Automated NEVI/federal grant tracking with eligibility scoring |
-| **[Compliance Automation](https://github.com/Adkr1989/Maine-Scientific-Dev)** | FDA/GMP/HACCP documentation systems |
-| **[Multi-Agent Dashboard](https://github.com/Adkr1989/Agent-Dashboard-Designer)** | Real-time orchestration with WebSocket streaming |
+| **[Dev Resource Dashboard](https://github.com/Adkr1989/dev-resource-dashboard)** | Zero-dependency dashboard for repos, agents, MCP servers, and clients |
+| **Grant Intelligence Platform** *(private repo)* | Automated NEVI/federal grant tracking with eligibility scoring |
+| **Compliance Automation** *(client work, private)* | FDA/GMP/HACCP documentation systems |
+| **Multi-Agent Dashboard** *(private repo)* | Real-time orchestration with WebSocket streaming |
 
 ### By The Numbers
 
