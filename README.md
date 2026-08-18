@@ -32,7 +32,6 @@ Building production AI systems that bridge technical infrastructure with busines
 
 ```
 363,000+  Lines of production code
-    918x  Efficiency gain documented
       6   Years energy consulting experience
      12+  MCP server implementations
 ```
