@@ -22,8 +22,8 @@ Building production AI systems that bridge technical infrastructure with busines
 
 | Project | What It Does |
 |---------|--------------|
-| **[Portfolio](https://github.com/Adkr1989/Portfolio)** | AI Agent development showcase - architecture, patterns, results |
-| **[Dev Resource Dashboard](https://github.com/Adkr1989/dev-resource-dashboard)** | Zero-dependency dashboard for repos, agents, MCP servers, and clients |
+| **[Portfolio](https://github.com/Adev-io/Portfolio)** | AI Agent development showcase - architecture, patterns, results |
+| **[Dev Resource Dashboard](https://github.com/Adev-io/dev-resource-dashboard)** | Zero-dependency dashboard for repos, agents, MCP servers, and clients |
 | **Grant Intelligence Platform** *(private repo)* | Automated NEVI/federal grant tracking with eligibility scoring |
 | **Compliance Automation** *(client work, private)* | FDA/GMP/HACCP documentation systems |
 | **Multi-Agent Dashboard** *(private repo)* | Real-time orchestration with WebSocket streaming |
@@ -56,8 +56,8 @@ Now I build AI agents that automate real business workflows.
 ### GitHub Stats
 
 <p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Adkr1989&show_icons=true&theme=default&hide_border=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adkr1989&layout=compact&theme=default&hide_border=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Adev-io&show_icons=true&theme=default&hide_border=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adev-io&layout=compact&theme=default&hide_border=true" />
 </p>
 
 ### Let's Connect
@@ -65,7 +65,7 @@ Now I build AI agents that automate real business workflows.
 <p>
   <a href="mailto:lawventuresltd.group@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://linkedin.com/in/ariklopfer"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/Adkr1989/Portfolio"><img src="https://img.shields.io/badge/Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Adev-io/Portfolio"><img src="https://img.shields.io/badge/Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
 ---
@@ -75,5 +75,5 @@ Now I build AI agents that automate real business workflows.
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Adkr1989&color=2563eb&style=flat" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Adev-io&color=2563eb&style=flat" alt="Profile views" />
 </p>
